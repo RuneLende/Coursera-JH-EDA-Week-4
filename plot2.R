@@ -1,4 +1,6 @@
+#Load file
 NEI <- readRDS("summarySCC_PM25.rds")
+
 library(dplyr)
 # Plot 2 - Barplot
 
