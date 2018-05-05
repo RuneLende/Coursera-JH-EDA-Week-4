@@ -25,5 +25,5 @@ barplot(motor_emissions$total, names.arg = c("1999", "2002", "2005", "2008"),
 
 png("plot5.png")
 barplot(motor_emissions$total, names.arg = c("1999", "2002", "2005", "2008"), 
-        ylab = "Emission", xlab = "Year", col = "blue", main = "Change in emissionfor motor vehicle in Baltimore City")
+        ylab = "Emission", xlab = "Year", col = "blue", main = "Change in emission for motor vehicle in Baltimore City")
 dev.off()
